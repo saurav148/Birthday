@@ -1,0 +1,46 @@
+
+       h3{text-align: center;}
+       h1{ text-align: center;
+    color: red;
+       }
+       
+        #parent {
+     height: 80vh;
+    display: flex;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    flex-direction: column;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     background-color: black;
+ 
+ }
+ @keyframes infinite {
+     0% {
+         color: pink;
+     }
+ 
+     50% {
+         color: yellow;
+     }
+ 
+     100% {
+         color: pink;
+     }
+ }
+ .txt {
+     width: fit-content;
+     font-style: italic;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: pink;
+     background-color: black;
+     padding: 4px 30px ;
+     animation: infinite 3s infinite;
+
+     }
+   
+  
